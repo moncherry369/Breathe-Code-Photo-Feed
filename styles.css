@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.headers {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 30px;
+}
+.headers p {
+    position: inherit;
+    margin-left:auto;
+    font-size: smaller;
+    color: grey;
+}
+.posts {
+    outline: none;
+}
+img {
+   width:100%;
+  margin-left: 2px;
+}
+.caption {
+    margin: 0;
+    max-width: 300px;
+}
+.imgs {
+    max-width: 300px;
+}
+.caption p {
+    font-size: small;
+    height: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+}
